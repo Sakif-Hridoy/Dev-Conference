@@ -19,6 +19,7 @@ nav {
 .logo {
   display: flex;
   gap: 5px;
+  cursor: pointer;
 }
 
 .logo-image {
@@ -52,6 +53,7 @@ nav h2 {
 
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .btn-text {
