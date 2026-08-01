@@ -44,10 +44,7 @@ nav h2 {
   font-size: 18px;
 }
 
-.nav-btn {
-  width: 200px;
-  height: 50px;
-
+.btn {
   background: #1d4ed8;
   color: white;
 
@@ -56,9 +53,67 @@ nav h2 {
   cursor: pointer;
 }
 
+.nav-btn {
+  width: 170px;
+  height: 45px;
+}
+
 .btn-text {
   font-weight: 700;
   padding: 25px;
+  /* text-align: center; */
 }
 
 /* Nav Styles */
+
+/* Hero Styles */
+
+.hero {
+  padding-top: 20px;
+
+  /* justify-content: center; */
+}
+
+.hero-container {
+  height: 686px;
+
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/banner.jpeg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.head-ext {
+  font-style: italic;
+}
+
+.hero-head {
+  padding-top: 100px;
+  color: white;
+  font-size: 70px;
+}
+
+.hero-p {
+  padding-top: 15px;
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-area {
+  margin-top: auto;
+}
+
+.reg-btn {
+  /* margin-top: auto; */
+  width: 200px;
+  height: 50px;
+}
+/* Hero Styles */
