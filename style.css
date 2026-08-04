@@ -37,10 +37,15 @@ nav h2 {
   align-items: center;
 }
 
-.menus li a {
+.menus li {
   color: #575757;
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 18px;
+  list-style-type: none;
+}
+
+.menus li a{
+  text-decoration: none;
 }
 
 .btn {
@@ -102,11 +107,12 @@ nav h2 {
   max-width: 550px;
   margin: 0 auto;
   text-align: center;
+  color: white;
 }
 
-.btn-area {
-  margin-top: 20px;
-  /* padding-bottom: 30px; */
+.reg-btn-area {
+  margin-top: auto;
+  padding-bottom: 30px;
 }
 
 .reg-btn {
@@ -370,4 +376,10 @@ hr{
     min-height: 370px;
     min-width: 270px; 
     cursor: pointer;  /* উদাহরণ */
+}
+
+.standard-btn-area,
+.pro-btn-area,
+.team-btn-area{
+  margin-top: 35px;
 }
