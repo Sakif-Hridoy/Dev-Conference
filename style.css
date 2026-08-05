@@ -384,3 +384,87 @@ hr{
 .team-btn-area{
   margin-top: 35px;
 }
+
+/*
+   Conference Tracks Section
+*/
+
+.tracks-section{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.tracks-container{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+.tracks-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.tracks-head{
+    font-size:40px;
+    font-weight:700;
+    color:#111827;
+    margin-bottom:16px;
+}
+
+.tracks-description{
+    max-width:760px;
+    margin:0 auto;
+    color:#6b7280;
+    font-size:16px;
+    line-height:1.7;
+}
+
+.tracks-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:32px 40px;
+}
+
+.track-card{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    padding:28px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.track-icon{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#eff6ff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.track-card h3{
+    color:#111827;
+    font-size:24px;
+    margin-bottom:12px;
+}
+
+.track-card p{
+    color:#6b7280;
+    font-size:15px;
+    line-height:1.7;
+    margin-bottom:22px;
+}
+
+.track-badge{
+    display:inline-block;
+    background:#dbeafe;
+    color:#1d4ed8;
+    padding:8px 14px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:700;
+    cursor: pointer;
+}
