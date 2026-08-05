@@ -328,6 +328,7 @@ hr {
   color: #1d4ed8;
   font-weight: bold;
   cursor: pointer;
+  outline: none;
   /* padding-top: 10px; */
 }
 
@@ -340,6 +341,7 @@ hr {
   color: #ffffff;
   font-weight: bold;
   cursor: pointer;
+  outline: none;
 }
 
 .team-btn {
@@ -351,6 +353,7 @@ hr {
   color: black;
   font-weight: bold;
   cursor: pointer;
+  outline: none;
 }
 
 .pro-card {
